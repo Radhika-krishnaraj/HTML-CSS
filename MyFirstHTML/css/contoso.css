@@ -1,0 +1,143 @@
+html{
+	width:100%;	
+}
+body{
+	background-color: #f0f0f8;
+	height: 100%;
+	padding: 0;
+	margin: 0px;
+}
+
+
+.header{
+	font-family:'Roboto', 'Noto', sans-serif;
+	font-size:20px;
+	padding-left:50px;
+	
+	
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+    padding:0 5% 0 5%;
+    color: white;
+    background: #2a2a2a; 
+}
+
+.nav > li {
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	padding: 20px 0 10px 0; 
+	color: rgba(220, 220, 220, 0.56);
+}
+
+.nav > li.active {
+	background: red;
+	color: white; 
+}
+
+.nav > li:hover {
+	background: red;
+	color: white;
+}
+
+.register-here {
+	position: absolute;
+    top: 70px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    border-style: dashed;
+}
+
+.register-content {	
+    border: 1px dotted gray;
+    border-radius: 50%;
+    background: #a73738;
+    color: white;
+    text-align: center;
+    height: 90%;
+    margin: 5%;
+	
+	/*padding-top:0px;*/
+}
+#line{
+	background:black;
+	width:100%;
+	height:3px;
+	
+}
+ #para{
+ 	padding:30px 50px 30px 50px; 	
+	font-size:18px;
+	text-align:left;
+	font-family: 'noto',' sans-serif';
+}
+
+.header #heading{
+	font-size: 20px;
+}
+
+/** Style for images using div tag */
+.images {
+	margin-left: 30px;
+}
+.image {
+	display: inline-block;
+	padding: 20px;
+}
+
+.image > img {
+	border: 1px solid gray;
+}
+
+.image > label {
+	display:block;
+	text-align: center;
+}
+
+/** End of style for images using div tag */
+
+.header #heading1{
+	padding-top: 40px;	
+}
+.sponsers{	
+	height:20px;
+	display:inline-block;
+	padding-left:0px;
+	padding-top:10px;
+	min-width: 50px;
+}
+ 
+ /** Style for images using ul tag */
+ .names{
+ 	list-style-type: none;
+	margin: 0;   	
+	display:inline-block;
+	padding-left:30px;
+	padding-bottom:40px;
+ 	font-size:18px;
+ 	text-transform:capitalize;
+	list-style: none;
+	display:inline-block;
+}
+
+.names > li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.names > li > img {
+	border: 1px solid gray;
+}
+
+.names > li > label {
+	display: block;
+}
+
+/** End of style for images using ul tag */
