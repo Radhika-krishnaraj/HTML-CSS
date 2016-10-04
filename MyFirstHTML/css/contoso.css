@@ -59,7 +59,6 @@ body {
 	text-align: center;
 	height: 90%;
 	margin: 5%;
-	
 }
 .line {
 	background: black;
@@ -135,13 +134,42 @@ body {
 }
 
 /** End of style for images using ul tag */
-	
-.description1
-{
-	width:30%;
-	/*max-width:32%;*/
+
+.description1 {
+	width: 30%;
 	display: inline-block;
 	text-align: left;
 	padding: 10px 10px;
-	/*margin:8px 8px;*/
+	
 }
+.scheduleform > div {
+	width:80%;
+	margin:10px 65px;
+	font:5px sans-serif black bold;
+	border: 1px solid gray;
+	padding: 20px 60px 20px 80px;
+	
+}
+.scheduleform>div> #scheduleform1{
+	
+	width:20%;
+	
+}
+/*#label1{
+	padding: 20px 60px;
+}*/
+
+.row {
+	display: block;
+	min-height: 100px;
+	background: white;	
+}
+
+.column {
+	display: inline-block;
+	background: white;
+	min-height: 100px;
+}
+
+
+
