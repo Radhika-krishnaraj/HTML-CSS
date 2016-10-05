@@ -7,7 +7,7 @@
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title>schedule</title>
+		<title>register</title>
 		<meta name="description" content="">
 		<meta name="author" content="user">
 
@@ -19,12 +19,11 @@
 
 		<link href="css/menu.css" rel="stylesheet" type="text/css">
 		<link href="css/contoso.css" rel="stylesheet" type="text/css">
+
 	</head>
 
 	<body>
-		<form method="post" action="http://dummyserver">
 
-		</form>
 		<div class="menu">
 
 			<div class="menu-items">
@@ -35,12 +34,12 @@
 				<a href="about.html">ABOUT</a>
 			</div>
 
-			<div class="menu-items active">
-				<a href="#schedule">SCHEDULE</a>
+			<div class="menu-items">
+				<a href="schedule.html">SCHEDULE</a>
 			</div>
 
-			<div class="menu-items">
-				<a href="register.html">REGISTER</a>
+			<div class="menu-items active">
+				<a href="#register.html">REGISTER</a>
 			</div>
 
 			<div class="menu-items">
@@ -70,58 +69,56 @@
 		<div class="line">
 
 		</div>
-
-		<div class="row border" style="margin:10px 50px 10px 50px;">
-			Registration
-		</div>
-
-		<div class="row border" style="margin:0 50px 10px 50px;">
-			Moving the Web forward with the HTML5
-		</div>
-
-		<div class="row" style="margin:0 50px 10px 50px;padding: 0; background: none;">
-			<div class="column" style="width:47%; padding: 0;background: none;">
-				<div class="row border" style="height: 50px;">
-					Diving in at the deep end with Canvas
-				</div>
-				<div class="row border" style="height: 50px;">
-					Websockets and you
-				</div>
-			</div>
-			<div class="column border" style="margin-top: 10px; margin-left: 10px;padding:10px;width:50%; height: 180px;">
-				New technologies in Enterprise
-			</div>
-		</div>
-
-		<!-- <div class="header">
-		<header>
-		<h2>Schedule</h2>
-		</header>
-		</div>
-		<div class="scheduleform">
-		<div>
-		Registration
+		<div class="header">
+			<br>
+			<header>
+				<h2>Register for the Conference</h2>
+			</header>
 		</div>
 		<div>
-		Moving the Web forward with the HTML5
-		</div>
-		<div class="row">
-		<div class="column" style="width:40%">
-		<div class="row">
-		Diving in at the deep end with Canvas
-		</div>
-		<div class="row">
-		Websockets and you
-		</div>
-		</div>
-		<div class="column" style="width:40%">
-		<div class="row">
-		New technologies in Enterprise
-		</div>
-		</div>
-		</div>
+			<form method="post" action="http://dummyserver">
 
-		</div> -->
+				<p class="formstyles">
+					<label class="labelname">First name:
+						<br>
+					</label>
+					<input size="40px" name="First name" type="text" />
+				</p>
+				<p class="formstyles">
+					<label class="labelname">Last name:
+						<br>
+					</label>
+					<input size="40px" name="Last name" type="text"/>
+				</p>
+				<p class="formstyles">
+					<label class="labelname">Email address:
+						<br>
+					</label>
+					<input size="40px" name="Email" type="text"/>
+				</p>
+				<p class="formstyles">
+					<label class="labelname">Choose a Password:
+						<br>
+					</label>
+					<input size="40px" name="password" type="password"/>
+				</p>
+
+				<p class="formstyles">
+					<label class="labelname">Confirm your Password:
+						<br>
+					</label>
+					<input size="40px" name="confirmpassword" type="password"/>
+				</p>
+
+				<p class="formstyles">
+					<label>Website/Blog:
+						<br>
+					</label>
+					<input size="40px" placeholder="http://" name="website" type="text"/>
+				</p>
+
+			</form>
+		</div>
 
 	</body>
 </html>

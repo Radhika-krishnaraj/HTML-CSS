@@ -138,38 +138,73 @@ body {
 .description1 {
 	width: 30%;
 	display: inline-block;
-	text-align: left;
+	text-align: justify;
 	padding: 10px 10px;
-	
 }
 .scheduleform > div {
-	width:80%;
-	margin:10px 65px;
-	font:5px sans-serif black bold;
+	width: 80%;
+	margin: 10px 65px;
+	font: 5px sans-serif black bold;
 	border: 1px solid gray;
 	padding: 20px 60px 20px 80px;
-	
 }
-.scheduleform>div> #scheduleform1{
-	
-	width:20%;
-	
+.scheduleform > div > #scheduleform1 {
+
+	width: 20%;
 }
 /*#label1{
-	padding: 20px 60px;
-}*/
+ padding: 20px 60px;
+ }*/
 
 .row {
 	display: block;
-	min-height: 100px;
-	background: white;	
+	min-height: 75px;
+	background: white;
+	padding: 10px;
+	margin-top: 10px;
 }
 
 .column {
 	display: inline-block;
 	background: white;
-	min-height: 100px;
+	float: left;
 }
 
-
-
+.border {
+	border: 1px solid #DCDCDC;
+}
+.formstyles {
+	width: 100%;
+	padding: 5px 50px;
+	margin: 10px;
+}
+.labelname {
+	font-family: 'Roboto', 'Noto', sans-serif;
+	font: 18px bold;
+}
+.footer {
+	font: 15px #ffffff;
+	width: 100%;
+	height: 120px;
+	display: inline-block;
+	padding: 50px;
+	background: #383638;
+	margin-top: 60px;
+	list-style: none;
+}
+div .addr > li {
+	list-style: none;
+	font: 16px italic;
+	padding-left: 50px;
+}
+div .ask {
+	font: 14px;
+	font-family: 'Roboto', 'Noto', sans-serif;
+	padding-left: 50px;
+}
+div .feedback > li {
+	font-size: 14px;
+	font-family: 'Roboto', 'Noto', sans-serif;
+	padding: 5px 0 2px 50px;
+	list-style: none;
+}
